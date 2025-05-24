@@ -256,3 +256,27 @@ body {
     width: 87.5%;
     margin: 100px auto 0px auto;
 }
+
+#first_sec {
+    background-color: #FFFFFF;
+    height: 60px;
+}
+
+#second_sec {
+    background-color: #FFFFFF;
+    width: 87.5%;
+    margin: 100px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#second_sec p {
+    text-align: center;
+    padding-top: 20px;
+    color: #5B5757;
+}
+
+#second_sec img {
+    padding-top: 20px;
+    padding-left: 32px;
+}
