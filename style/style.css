@@ -135,3 +135,30 @@ body {
     justify-content: space-between;
     text-align: center;
 }
+#exp_banner{
+    background-color:#FFFFFF;
+    padding: 48px;
+    border-radius: 24px;
+    display: flex;
+}
+.china_wal{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+    margin-right: 32px;
+}
+#box_text h1{
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 32px;
+}
+#box_text .chinalag{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+#box_text p{
+    color: #0E0E0E70;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom:32px;
+}
