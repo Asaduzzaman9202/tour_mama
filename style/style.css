@@ -2,6 +2,7 @@
     font-family: "Plus Jakarta Sans", sans-serif;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box ;
     /* border-style: solid;
     border-width: 1px;
     border-color: aqua; */
@@ -12,6 +13,9 @@ body {
     min-height: 100vh;
     background-image: linear-gradient(#ffffff, #ebdcff);
 
+}
+* img{
+    max-width: 100%;
 }
 
 #banner_containar {
@@ -102,9 +106,7 @@ body {
     width: 54%
 }
 
-.banner_image img {
-    width: 598px;
-}
+
 
 #first_box .imag1 {
     width: 70px;
@@ -223,7 +225,7 @@ body {
     text-align: center;
     background-image: url("/image/star-reviews.png");
     background-repeat: no-repeat;
-    background-position-x: 770px;
+    background-position-x: 1000px;
     background-position-y: 96%;
     opacity: 0.5;
 }
@@ -234,7 +236,7 @@ body {
     font-weight: 16px;
     background-image: url("/image/star-reviews.png");
     background-repeat: no-repeat;
-    background-position-x: 770px;
+    background-position-x: 1000px;
     background-position-y: 96%;
     opacity: 0.5; 
 }

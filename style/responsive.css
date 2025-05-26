@@ -1,0 +1,70 @@
+/* for laptop */
+@media screen and (max-width: 1200px) {
+    .text h1 {
+        font-size: 60px;
+    }
+
+    .text p {
+        font-size: 15px;
+    }
+
+    .btn {
+
+        border-radius: 25px;
+        padding: 14px 28px;
+    }
+
+    .btn_white {
+
+        border-radius: 25px;
+        padding: 14px 28px;
+    }
+}
+
+/* for tablat */
+@media screen and (max-width: 1024px) {
+    .text h1 {
+        font-size: 50px;
+    }
+
+    .text p {
+        font-size: 13px;
+    }
+
+    .btn {
+        padding: 12px 26px;
+    }
+
+    .btn_white {
+        padding: 12px 26px;
+    }
+}
+
+/* for mobile */
+@media screen and (max-width: 640px) {
+    .text h1 {
+        font-size: 30px;
+    }
+
+    .text p {
+        font-size: 12px;
+    }
+
+    .btn {
+        margin: auto;
+        padding: 10px 15px;
+    }
+
+    .btn_white {
+        padding: 10px 15px;
+        margin: 2px;
+    }
+
+    .text {
+        text-align: left;
+    }
+
+    .text * {
+        margin-bottom: 5px;
+    }
+}
